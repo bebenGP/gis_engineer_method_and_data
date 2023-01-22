@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?><messages><msg code="0" type="2">Start Time: Saturday, January 21, 2023 3:23:35 PM</msg><msg code="-2147467259" type="100">Traceback (most recent call last):
+  File "c:\users\beben\appdata\local\programs\arcgis\pro\Resources\ArcToolbox\scripts\odlinks.py", line 375, in &lt;module&gt;
+    MakeODLinksBasic(origins,
+  File "c:\users\beben\appdata\local\programs\arcgis\pro\Resources\ArcToolbox\scripts\odlinks.py", line 171, in MakeODLinksBasic
+    arcpy.management.AddFields(outfc, add_fields)
+  File "C:\Users\beben\AppData\Local\Programs\ArcGIS\Pro\Resources\ArcPy\arcpy\management.py", line 5428, in AddFields
+    raise e
+  File "C:\Users\beben\AppData\Local\Programs\ArcGIS\Pro\Resources\ArcPy\arcpy\management.py", line 5425, in AddFields
+    retval = convertArcObjectToPythonObject(gp.AddFields_management(*gp_fixargs((in_table, field_description, template), True)))
+  File "C:\Users\beben\AppData\Local\Programs\ArcGIS\Pro\Resources\ArcPy\arcpy\geoprocessing\_base.py", line 512, in &lt;lambda&gt;
+    return lambda *args: val(*gp_fixargs(args, True))
+arcgisscripting.ExecuteError: ERROR 000496: table is being edited
+Failed to execute (AddFields).
+
+</msg><msg code="0" type="0">Failed script (null)...</msg><msg code="-2147467259" type="100">Failed to execute (GenerateOriginDestinationLinks).</msg><msg code="0" type="3">Failed at Saturday, January 21, 2023 3:23:37 PM (Elapsed Time: 1.73 seconds)</msg></messages>
